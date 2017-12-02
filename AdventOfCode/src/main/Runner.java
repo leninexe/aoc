@@ -1,6 +1,7 @@
 package main;
 
 import level1.Level1;
+import level2.Level2;
 
 import java.io.File;
 
@@ -12,6 +13,9 @@ public class Runner {
             switch (level) {
                 case 1:
                     Level1.run(new File(args[1]));
+                    break;
+                case 2:
+                    Level2.run(new File(args[1]));
                     break;
                 default:
                     System.err.println("Unknown level!");
