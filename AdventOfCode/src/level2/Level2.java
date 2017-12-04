@@ -1,7 +1,5 @@
 package level2;
 
-import com.sun.tools.javac.util.List;
-
 import java.io.*;
 
 public class Level2 {
