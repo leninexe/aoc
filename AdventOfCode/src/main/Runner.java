@@ -5,6 +5,7 @@ import level2.Level2;
 import level3.Level3;
 import level4.Level4;
 import level5.Level5;
+import level6.Level6;
 
 import java.io.File;
 
@@ -28,6 +29,9 @@ public class Runner {
                     break;
                 case 5:
                     Level5.run(new File(args[1]));
+                    break;
+                case 6:
+                    Level6.run(new File(args[1]));
                     break;
                 default:
                     System.err.println("Unknown level!");
