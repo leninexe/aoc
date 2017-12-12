@@ -1,6 +1,8 @@
 package main;
 
 import level1.Level1;
+import level11.Level11;
+import level12.Level12;
 import level2.Level2;
 import level3.Level3;
 import level4.Level4;
@@ -32,6 +34,12 @@ public class Runner {
                     break;
                 case 6:
                     Level6.run(new File(args[1]));
+                    break;
+                case 11:
+                    Level11.run(new File(args[1]));
+                    break;
+                case 12:
+                    Level12.run(new File(args[1]));
                     break;
                 default:
                     System.err.println("Unknown level!");
